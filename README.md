@@ -68,3 +68,103 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+  
+  
+  ###Work in progess
+  
+  <!-- const thingsArray = ["Thing 1", "Thing 2"];
+  const things = thingsArray.map(thing => <p key={thing}>{thing}</p>)
+
+  function getNewThing() {
+    const newThing = `Thing ${thingsArray.length +1}`;
+    thingsArray.push(newThing)
+    console.log(thingsArray)
+  }
+
+  function greeting( name ) {
+    const date = new Date();
+    const hours = date.getHours();
+    let timeOfDay;
+    // console.log(name);
+    if (hours >= 4 && hours < 12) {
+      timeOfDay = "Morning"
+    } else if (hours >= 12 && hours < 17) {
+      timeOfDay = "Afternoon"
+    } else if (hours >= 17 && hours < 20) {
+      timeOfDay = "Evening"
+     } else if (hours >= 20 && hours < 4) {
+      timeOfDay = "Evening";
+     }
+     return (`Good ${timeOfDay}, ${name}`);
+  }
+  console.log(greeting("Marie")); -->
+
+
+<!-- 
+        {things}
+      <button className="form-button" onClick={greeting}>
+        Add a thing
+      </button> -->
+
+
+
+
+<!-- 
+  export default function Meme() {
+
+  const [count, setCount] = React.useState(0)
+
+ function add() { 
+       setCount(prevCount => prevCount + 1)
+    }
+
+  function subtract() {
+    setCount(prevCount => prevCount - 1);
+  }
+
+  return (
+    <main>
+      <h1>{count}</h1>
+      <button className="form-button" onClick={add}>
+        +
+      </button>
+      <button className="form-button" onClick={subtract}>
+        -
+      </button>
+      </main>
+      )
+      } -->
+
+
+  <!-- const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"])
+  const things = thingsArray.map((thing) => <p key={thing}>{thing}</p>);
+  function getNewThing() {
+    setThingsArray((prevThingsArray) => [...prevThingsArray, `Thing ${prevThingsArray.length + 1}`])
+    alert("Hi")
+  }
+
+      <div onClick={getNewThing}>Click!</div>
+      {things} -->
+
+
+
+<!-- 
+  const [contact, setContact] = React.useState({
+    firstName: "John",
+    lastName: "Doe",
+    isFavorite: false,
+  });
+
+  function handleFavorite() {
+    setContact((prevContact) => ({
+      ...prevContact,
+      isFavorite: !prevContact.isFavorite,
+    }));
+  }
+
+  let starIcon = contact.isFavorite ? "Yes" : "No";
+      <h1>
+        {contact.firstName} {contact.lastName}
+      </h1>
+      <h2 onClick={handleFavorite}>{starIcon}</h2> -->

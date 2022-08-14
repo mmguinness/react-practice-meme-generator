@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+  padding: 36px;
 }
 
-.App-header {
+.header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 150px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header--image {
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header--text {
+  padding: 50px;
+  margin-left: auto;
+  font-size: 1.25rem;
+}
+
+.course {
+  font-weight: lighter;
+}
+
+.meme-form {
+  padding: 50px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-button {
+  grid-column: 1/ -1;
+  font-family: "Poppins";
+  border-radius: 10px;
+  color: #282c34;
+}
+
+.form-input {
+  font-family: "Poppins";
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+.box-meme-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.meme-image {
+  max-width: 500px;
 }

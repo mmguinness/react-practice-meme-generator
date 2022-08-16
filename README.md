@@ -32,12 +32,16 @@ Practice project as part of the freeCodeCamp course - [React JavaScript Library 
   - Forms
   - Side Effects
   
-  
+
 ## Screenshots of application
+
+- iPad Layout:
 
 <p style="text-align: center;">
   <img alt="Homepage" src="./public/Screenshot 2022-08-16-ipadair.png" width="80%"> 
 </p>
+
+- Phone Layout:
 
 <p style="text-align: center; gap: 10px;" >
   <img alt="" src="./public/Screenshot 2022-08-16-01.png" width="25%">
@@ -47,4 +51,6 @@ Practice project as part of the freeCodeCamp course - [React JavaScript Library 
   <img alt="" src="./public/Screenshot 2022-08-16-03.png" width="25%">
 </p>
   
+- I added a "Clear text" button to make it easier to use on a phone.
+- Hosted on Heroku.
 
